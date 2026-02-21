@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+libsql-client
+python-dotenv
+PyMuPDF
+easyocr
+langchain-google-genai
+resend
+httpx
+python-multipart
+python-telegram-bot
+python-jose
