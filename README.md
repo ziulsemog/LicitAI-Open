@@ -1,4 +1,4 @@
-# 🚀 LicitAI SaaS
+# 🚀 LicitAI-Open
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -17,7 +17,7 @@ SaaS de Inteligência Competitiva para automação e monitoramento inteligente d
 
 ## 🏗 Arquitetura Visual
 
-O funcionamento do **LicitAI** acontece de forma autônoma (Serverless) diariamente às 8h da manhã. O fluxo principal engloba:
+O funcionamento do **LicitAI-Open** acontece de forma autônoma (Serverless) diariamente às 8h da manhã. O fluxo principal engloba:
 
 1. **PNCP API:** Consumo massivo de editais publicados no dia.
 2. **Python Worker:** Filtro Regex Inteligente (ex: Zabbix, Splunk, AppDynamics). Download de editais PDFs e uso de OCR Nativo (PyMuPDF) ou OCR fallback (EasyOCR).
@@ -46,8 +46,8 @@ O repositório é particionado para garantir organização e escala:
 1. **Clone este Repositório**
 
    ```bash
-   git clone https://github.com/SeuUser/LicitAI.git
-   cd LicitAI
+   git clone https://github.com/ziulsemog/LicitAI-Open.git
+   cd LicitAI-Open
    ```
 
 2. **Crie e Ative um Ambiente Virtual**
